@@ -1,10 +1,11 @@
 export const boxFooterStyle = {
-    py: 1,
-    px: 2,
+    py: 1.5,
+    px: 1.5,
     mt: 'auto',
     backgroundColor: 'primary.dark',
-    flexGrow: 0,
-  flexShrink: 0,
-  gridRowStart: 2,
-  gridRowEnd: 3,
+    // flexShrink: 0,
+    // flexGrow: 0,
+    // gridRowStart: 2,
+    // gridRowEnd: 3,
+    // flexBasis: 'auto',
 };

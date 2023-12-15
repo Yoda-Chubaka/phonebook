@@ -50,7 +50,7 @@ export default function SignUp() {
         </Typography>
         <Box component="form" onSubmit={onSubmitUser} sx={{ mt: 1 }}>
           <TextField
-            margin="normal"
+            margin="minimal"
             helperText="The name must contain only letters, apostrophes, hyphens and indents."
             inputProps={{ inputMode: 'text', pattern: "^[a-zA-Zа-яА-Я]+(([a-zA-Zа-яА-Я ])?[a-zA-Zа-яА-Я]*)*$" }}
             autoComplete="name"

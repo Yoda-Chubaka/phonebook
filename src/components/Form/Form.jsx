@@ -82,9 +82,9 @@ export const Form = () => {
             </Typography>
             <Box component="form" onSubmit={onSubmitAddContact} sx={{ mt: 1 }}>
                 <TextField
-                    sx={{backgroundColor: 'rgba(208, 224, 241, 0.822)'}}
+                    sx={{backgroundColor: 'rgba(208, 224, 241, 0.822)', borderRadius: '4px'}}
                     inputProps={{ inputMode: 'text', pattern: "^[a-zA-Zа-яА-Я]+(([a-zA-Zа-яА-Я ])?[a-zA-Zа-яА-Я]*)*$" }} 
-                    margin="normal"
+                    margin="minimal"
                     fullWidth
                     label="Name"
                     type="text"
@@ -95,7 +95,7 @@ export const Form = () => {
                     onChange={onChangeInput}
                 />
                 <TextField
-                    sx={{ backgroundColor: 'rgba(208, 224, 241, 0.822)', outline: 0}}
+                    sx={{ backgroundColor: 'rgba(208, 224, 241, 0.822)', borderRadius: '4px' }}
                     inputProps={{ inputMode: 'tel', pattern: '[0-9]*' }} 
                     margin="normal"
                     fullWidth
@@ -111,7 +111,7 @@ export const Form = () => {
                     type="submit"
                     fullWidth
                     variant="contained"
-                    sx={{ mt: 3, mb: 2, display: 'flex', gap: 3 }}
+                    sx={{ mt: 1, mb: 1, display: 'flex', gap: 3 }}
                 >
                     {add && <LoadAdd />}
                     <p>Add contact</p> 

@@ -1,6 +1,7 @@
 export const boxStyle = {
     width: '100%',
     height: 56,
+    marginBottom: '20px',
     borderRadius: 5,
     mt: 1,
     display: 'flex',

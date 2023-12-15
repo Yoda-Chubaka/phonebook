@@ -51,7 +51,7 @@ export const boxFormStyle = {
 export const boxBottomFStyle = {
   display: 'flex',
   justifyContent: 'center',
-  mb: 4,
+  mb: 2,
   alignItems: 'center'
 };
 

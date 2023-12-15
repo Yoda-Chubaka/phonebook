@@ -26,6 +26,7 @@ export const Filter = () => {
                 sx={{
                     width: 324,
                     bgcolor: 'rgba(208, 224, 241, 0.822)',
+                    borderRadius: '4px'
                 }}
                 label="Find contacts by name:"
                 type="text"
