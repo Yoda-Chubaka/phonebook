@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/phonebook/static/css/main.64b8d39b.css",
-    "main.js": "/phonebook/static/js/main.e5fdba06.js",
+    "main.css": "/phonebook/static/css/main.429a67d4.css",
+    "main.js": "/phonebook/static/js/main.e5f9e90d.js",
     "static/js/991.827979f8.chunk.js": "/phonebook/static/js/991.827979f8.chunk.js",
     "static/js/848.6a91f668.chunk.js": "/phonebook/static/js/848.6a91f668.chunk.js",
     "static/js/505.e8c2097f.chunk.js": "/phonebook/static/js/505.e8c2097f.chunk.js",
     "static/js/127.02282bee.chunk.js": "/phonebook/static/js/127.02282bee.chunk.js",
     "static/js/896.6cbfe698.chunk.js": "/phonebook/static/js/896.6cbfe698.chunk.js",
     "static/media/lavender-background-1.jpg": "/phonebook/static/media/lavender-background-1.c55e4a7d46a8088f4bda.jpg",
-    "static/media/alps.jpg": "/phonebook/static/media/alps.33178989017e47b36229.jpg",
+    "static/media/lavender-main.jpg": "/phonebook/static/media/lavender-main.12a6f5a3cd356307c17e.jpg",
     "static/media/avatar.png": "/phonebook/static/media/avatar.25445579c15eb22f5b81.png",
     "static/media/butterflies.jpg": "/phonebook/static/media/butterflies.a8de6a73674832ddb8b4.jpg",
     "index.html": "/phonebook/index.html",
-    "main.64b8d39b.css.map": "/phonebook/static/css/main.64b8d39b.css.map",
-    "main.e5fdba06.js.map": "/phonebook/static/js/main.e5fdba06.js.map",
+    "main.429a67d4.css.map": "/phonebook/static/css/main.429a67d4.css.map",
+    "main.e5f9e90d.js.map": "/phonebook/static/js/main.e5f9e90d.js.map",
     "991.827979f8.chunk.js.map": "/phonebook/static/js/991.827979f8.chunk.js.map",
     "848.6a91f668.chunk.js.map": "/phonebook/static/js/848.6a91f668.chunk.js.map",
     "505.e8c2097f.chunk.js.map": "/phonebook/static/js/505.e8c2097f.chunk.js.map",
@@ -21,7 +21,7 @@
     "896.6cbfe698.chunk.js.map": "/phonebook/static/js/896.6cbfe698.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.64b8d39b.css",
-    "static/js/main.e5fdba06.js"
+    "static/css/main.429a67d4.css",
+    "static/js/main.e5f9e90d.js"
   ]
 }
