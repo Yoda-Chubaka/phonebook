@@ -84,7 +84,8 @@ export const Form = () => {
                 <TextField
                     sx={{backgroundColor: 'rgba(208, 224, 241, 0.822)', borderRadius: '4px'}}
                     inputProps={{ inputMode: 'text', pattern: "^[a-zA-Zа-яА-Я]+(([a-zA-Zа-яА-Я ])?[a-zA-Zа-яА-Я]*)*$" }} 
-                    margin="minimal"
+                    margin='normal'
+                    maxHeight="20px"
                     fullWidth
                     label="Name"
                     type="text"
@@ -97,7 +98,7 @@ export const Form = () => {
                 <TextField
                     sx={{ backgroundColor: 'rgba(208, 224, 241, 0.822)', borderRadius: '4px' }}
                     inputProps={{ inputMode: 'tel', pattern: '[0-9]*' }} 
-                    margin="normal"
+                    margin="minimal"
                     fullWidth
                     label="Phone number"
                     type="tel"
@@ -112,7 +113,7 @@ export const Form = () => {
                     fullWidth
                     variant="contained"
                     sx={{ mt: 1, mb: 1, display: 'flex', gap: 3 }}
-                >
+                >   
                     {add && <LoadAdd />}
                     <p>Add contact</p> 
                 </Button>

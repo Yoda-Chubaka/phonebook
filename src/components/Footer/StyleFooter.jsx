@@ -1,6 +1,6 @@
 export const boxFooterStyle = {
-    py: 1.5,
-    px: 1.5,
+    py: 1,
+    px: 1,
     mt: 'auto',
     backgroundColor: 'primary.dark',
     position: 'absolute',

@@ -17,7 +17,7 @@ body {
     min-height: 100%;
     display: grid;
     grid-template-rows: 1fr auto;
-    background-image: linear-gradient(90deg, rgba(254, 254, 254, 0.5), rgba(254,254,254,0.5)), url('./photo/alps.jpg');
+    background-image: linear-gradient(90deg, rgba(254, 254, 254, 0.5), rgba(254,254,254,0.5)), url('./photo/lavender-main.jpg');
     background-size: cover;
     background-repeat: no-repeat;
 }

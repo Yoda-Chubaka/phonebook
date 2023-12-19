@@ -5,9 +5,9 @@ export const paperMainStyle = (photo) => ({
   mt: 10,
   backgroundSize: 'cover',
   backgroundRepeat: 'no-repeat',
-  backgroundPosition: 'bottom',
+  backgroundPosition: 'center',
   backgroundImage: `url(${photo})`,
-  minHeight: 450,
+  minHeight: 470,
 });
 
 export const boxMainStyle = {
@@ -27,7 +27,7 @@ export const containerContactsStyle = (photo) => ({
   backgroundRepeat: 'no-repeat',
   backgroundPosition: 'top',
   backgroundImage: `url(${photo})`,
-  backgroundColor: 'red',
+  backgroundColor: 'violet',
 });
 
 export const boxContactsStyle = {
