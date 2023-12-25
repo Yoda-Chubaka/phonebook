@@ -44,10 +44,11 @@ export const boxContactsStyle = {
 
 export const boxFormStyle = {
   marginTop: 8,
-  display: 'flex',
-  flexDirection: 'column',
+  // display: 'flex',
+  // flexDirection: 'column',
   alignItems: 'center',
-};
+  
+}
 
 export const boxBottomFStyle = {
   display: 'flex',

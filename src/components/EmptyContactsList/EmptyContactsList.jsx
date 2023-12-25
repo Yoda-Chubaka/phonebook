@@ -4,7 +4,7 @@ import { boxStyle } from './StyleEmptyContactsList';
 export const EmptyContactsList = () => {
     return (
         <Box sx={boxStyle}>
-            <Typography component="h1" variant="h5">
+            <Typography component="h1" variant="h6">
                 You don't have any contacts yet
             </Typography>
         </Box >

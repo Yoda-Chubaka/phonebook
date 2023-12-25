@@ -1,9 +1,7 @@
 import * as React from 'react';
 import { useDispatch, useSelector } from "react-redux";
 import { filterSet, selectFilter } from "redux/filterSlice";
-import { Avatar, TextField, Box } from '@mui/material';
-import PersonSearchIcon from '@mui/icons-material/PersonSearch';
-import { avatarStyle } from 'pages/StylePages';
+import { TextField, Box } from '@mui/material';
 import { boxFilterStyle } from './StyleFilter';
 
 export const Filter = () => {
@@ -17,14 +15,11 @@ export const Filter = () => {
     
     return (
         <Box component="div" sx={boxFilterStyle}>
-            <Avatar sx={avatarStyle}>
-                <PersonSearchIcon />
-            </Avatar>
             <TextField
                 margin="normal"
                 inputProps={{ inputMode: 'text', pattern: "^[a-zA-Zа-яА-Я]+(([a-zA-Zа-яА-Я ])?[a-zA-Zа-яА-Я]*)*$" }} 
                 sx={{
-                    width: 324,
+                    width: 500,
                     bgcolor: 'rgba(208, 224, 241, 0.822)',
                     borderRadius: '4px'
                 }}

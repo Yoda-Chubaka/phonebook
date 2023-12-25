@@ -4,11 +4,9 @@ import { selectPhoneBookValue } from "redux/phoneBook/phoneSelector";
 import { getContactsThunk } from "services/fetchContacts";
 import { useEffect, useState } from "react";
 import * as React from 'react';
-import { Box, List, Typography, Avatar } from "@mui/material";
-import ImportContactsIcon from '@mui/icons-material/ImportContacts';
+import { Box, List, Typography } from "@mui/material";
 import { Loader } from "components/Loader/Loader";
 import { ContactItem } from "./ContactItem";
-import { avatarStyle } from "pages/StylePages";
 import { boxListStyle } from "./StyleContactList";
 
 export const ContactsList = () => {
@@ -31,14 +29,11 @@ export const ContactsList = () => {
     
     return (
         <Box sx={boxListStyle}>
-            <Avatar sx={avatarStyle}>
-                <ImportContactsIcon />
-            </Avatar>
-            <Typography component="h1" variant="h5">
+            <Typography component="h1" variant="h6" sx= {{textDecoration: 'underline'}}>
                 Your Contacts
             </Typography>
             {load && <Loader/>}
-            <List sx={{ width: 396 }}>
+            <List sx={{ width: '350px' }}>
                 {visibleContacts.map((contact) =>
                     <ContactItem contact={contact} key={contact.id} />
                 )}

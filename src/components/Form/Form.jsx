@@ -4,10 +4,8 @@ import { Notify } from 'notiflix/build/notiflix-notify-aio';
 import { useDispatch, useSelector } from "react-redux";
 import { selectIsContactAdd, selectPhoneBookValue } from "redux/phoneBook/phoneSelector";
 import { postContactThunk } from "services/fetchContacts";
-import { Avatar, Button, TextField, Box, Typography } from '@mui/material';
-import ContactsIcon from '@mui/icons-material/Contacts';
+import { Button, TextField, Box, Typography } from '@mui/material';
 import { LoadAdd } from 'components/Loader/Loader';
-import { avatarStyle } from 'pages/StylePages';
 
 export const options = {
     width: '400px',
@@ -74,10 +72,7 @@ export const Form = () => {
 
     return (
         <>
-            <Avatar sx={avatarStyle}>
-                <ContactsIcon />
-            </Avatar>
-            <Typography component="h1" variant="h5">
+            <Typography component="h1" variant="h6" sx = {{marginTop: '20px', marginBottom: '5px', height: '20px', textDecoration: 'underline'}}>
                 Add Contact
             </Typography>
             <Box component="form" onSubmit={onSubmitAddContact} sx={{ mt: 1 }}>

@@ -8,5 +8,7 @@ export const boxListStyle = {
 
 export const listItemStyle = {
     bgcolor: 'rgba(208, 224, 241, 0.822)',
-    borderRadius: 2, mb: 1
+    borderRadius: 2, 
+    mb: 1,
+    height: '30px',
 };
